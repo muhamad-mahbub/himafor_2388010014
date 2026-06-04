@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mahbub Company Profile</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+    }
+
+    header {
+        background: #0d6efd;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav {
+        background: #333;
+        padding: 10px;
+        text-align: center;
+    }
+
+    nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        color: #0d6efd;
+    }
+
+    .hero {
+        background: url('https://via.placeholder.com/1200x400') no-repeat center;
+        background-size: cover;
+        color: white;
+        text-align: center;
+        padding: 100px 20px;
+    }
+
+    .container {
+        padding: 40px;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .card {
+        background: #f4f4f4;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 10px;
+    }
+
+    footer {
+        background: #333;
+        color: white;
+        text-align: center;
+        padding: 15px;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Mahbub Company</h1>
+    <p>Solusi Digital & Teknologi Masa Kini</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#about">Tentang</a>
+    <a href="#services">Layanan</a>
+    <a href="#contact">Kontak</a>
+</nav>
+
+<section class="hero">
+    <h2>Selamat Datang di Mahbub</h2>
+    <p>Kami membantu bisnis Anda berkembang dengan teknologi</p>
+</section>
+
+<div class="container">
+
+    <section id="about" class="card">
+        <h2>Tentang Kami</h2>
+        <p>
+            Mahbub Company adalah perusahaan yang bergerak di bidang teknologi dan pengembangan digital.
+            Kami berkomitmen untuk memberikan solusi terbaik dalam pembuatan website, aplikasi,
+            dan sistem berbasis teknologi modern.
+        </p>
+    </section>
+
+    <section id="services" class="card">
+        <h2>Layanan Kami</h2>
+        <ul>
+            <li>Website Development</li>
+            <li>Aplikasi Mobile</li>
+            <li>UI/UX Design</li>
+            <li>Maintenance & Support</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="card">
+        <h2>Kontak</h2>
+        <p>Email: mahbub@email.com</p>
+        <p>Telepon: 0812-3456-7890</p>
+        <p>Alamat: Indonesia</p>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 Mahbub Company. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
