@@ -1,4 +1,4 @@
-name: Deploy Web Static to 
+name: Deploy Web Static to aws
 on:
   push:
     branches: [ main ]
