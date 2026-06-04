@@ -1,4 +1,4 @@
-name: Deploy Web Static to AWSS
+name: Deploy Web Static to AWSSS
 
 on:
   push:
