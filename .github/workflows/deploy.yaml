@@ -1,4 +1,4 @@
-name: Deploy Web Static to awssssq
+name: Deploy Web Static to awssss
 on:
   push:
     branches: [ main ]
